@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis.cluster",
+      "type": "cn.xcz.haoke.dubbo.api.config.ClusterConfigurationProperties",
+      "sourceType": "cn.xcz.haoke.dubbo.api.config.ClusterConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.cluster.max-redirects",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.xcz.haoke.dubbo.api.config.ClusterConfigurationProperties"
+    },
+    {
+      "name": "spring.redis.cluster.nodes",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cn.xcz.haoke.dubbo.api.config.ClusterConfigurationProperties"
+    }
+  ],
+  "hints": []
+}

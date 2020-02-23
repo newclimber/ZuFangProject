@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xcz-haoke-manage-dubbo-server-house-resources-dubbo-interface" />
+        <module name="xcz-haoke-manage-api-server" />
+        <module name="xcz-haoke-manage-dubbo-server-house-resources-dubbo-service" />
+        <module name="xcz-haoke-manage-dubbo-server-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xcz-haoke-manage-dubbo-server-generator" target="1.8" />
+      <module name="xczhaokemanagedubboserver" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xcz-haoke-manage-api-server" options="-parameters" />
+      <module name="xcz-haoke-manage-dubbo-server" options="-parameters" />
+      <module name="xcz-haoke-manage-dubbo-server-generator" options="-parameters" />
+      <module name="xcz-haoke-manage-dubbo-server-house-resources-dubbo-interface" options="-parameters" />
+      <module name="xcz-haoke-manage-dubbo-server-house-resources-dubbo-service" options="-parameters" />
+    </option>
+  </component>
+</project>
